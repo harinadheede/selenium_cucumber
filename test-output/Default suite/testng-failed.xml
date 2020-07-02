@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="tests">
+  <test name="IETest(failed)" parallel="tests">
+    <classes>
+      <class name="test.TestNG_TestRunner">
+        <methods>
+          <include name="CucumberRunner2"/>
+          <include name="CucumberRunner"/>
+          <include name="CucumberRunner1"/>
+        </methods>
+      </class> <!-- test.TestNG_TestRunner -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
